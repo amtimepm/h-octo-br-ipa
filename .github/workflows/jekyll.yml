@@ -6,8 +6,8 @@
 
 os: -cuda
 
-runson: -BLUE%°
-var: *°!
+runs-on: °
+var: *```!
 
 
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
@@ -38,6 +38,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Ruby
