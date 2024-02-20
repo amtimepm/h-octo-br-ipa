@@ -1,8 +1,8 @@
 #### This workflow will build a docker container, publish it to [IBM Container] Registry, and deploy it to [IKS] when there is a push to the 
 
--wget git -github-actions-pull:
+-wget git -github-actions-push:
 
-*°h: +-push! `"main"`` (branch.).0.1.1.0.2..
+*°h: +-push! "main"``` (branch.).0.1.1.0.2..3
 
 #[Y]°{IN-LINE}°[§].IAP
 
