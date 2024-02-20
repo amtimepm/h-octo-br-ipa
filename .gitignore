@@ -2,3 +2,6 @@ git remote add origin https://github.com/amtimepm/h-octo-br-ipa.git
 git branch -M main
 git push -u origin main
 git pull - origin main
+git .git
+git °
+git . git-hub-actions 
