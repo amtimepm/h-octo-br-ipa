@@ -1,4 +1,4 @@
-<!DOCTYPE: °Foresee: -Salesforce : https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-java-with-ant @: ; !>
+<!DOCTYPE: °Foresee: -Salesforce  ####https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-java-with-ant####
 
 name: Java CI
 
@@ -7,11 +7,14 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-
+  pull_:
+    branches: [ "main" ]
 jobs:
   build:
 
     runs-on: ubuntu-latest
+    runs-on: °Foresee
+    runs-on: -Salesforce
 
     steps:
     - uses: actions/checkout@v3
@@ -21,4 +24,4 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
     - name: Build with Ant
-      run: ant -noinput -buildfile build.xml
+      run: ant -noinput -buildfile x.xml
