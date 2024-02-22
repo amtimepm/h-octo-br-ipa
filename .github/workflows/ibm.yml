@@ -1,4 +1,7 @@
 #### This workflow will build a docker container, publish it to [IBM Container] Registry, and deploy it to [IKS] when there is a push to the 
+#\INSTALL\#!/usr/bin/env\node\bash
+
+import { bash } from '!/user/bin' if '!@[]' END
 
 -wget git -github-actions-push:
 
