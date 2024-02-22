@@ -21,7 +21,7 @@ name: Build and Deploy to IKS
 on:
   push:
     branches: [ "main" ]
-#\INSTALL\#!/usr/bin/env\node\bash
+*\INSTALL\!/usr/bin/env\node\bash
 # Environment variables available to all jobs and steps in this workflow
 env:
   GITHUB_SHA: ${{ github.sha }}
